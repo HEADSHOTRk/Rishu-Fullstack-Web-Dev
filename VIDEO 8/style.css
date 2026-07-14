@@ -1,0 +1,13 @@
+body {
+    background-color: aqua;
+    text-decoration: dotted;
+}
+
+p {
+    background-color: rgba(118, 88, 88, 0.6);
+}
+
+a {
+    background-color: #a9141b;
+    color: white;
+}

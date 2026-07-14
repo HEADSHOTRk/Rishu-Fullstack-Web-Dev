@@ -1,0 +1,1 @@
+alert("click ok or go back")

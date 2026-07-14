@@ -1,0 +1,23 @@
+body{
+    background: #17ae90;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: 200;
+    font-display: auto; 
+    text-decoration: dotted; 
+    padding: 30%;
+} 
+td{
+    border:2px solid black
+}
+th{
+    border: 2px solid rgb(0, 0, 0);
+} 
+caption{
+    background-color: #0dba3e;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div{
+   background: #922e2e86;
+}

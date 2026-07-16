@@ -1,0 +1,14 @@
+#first{
+    background: red;
+    color: aqua;
+    
+}
+#second{
+    background-color: blue;
+    color: white;
+} 
+#dis{
+    
+    display:flex; 
+   
+}

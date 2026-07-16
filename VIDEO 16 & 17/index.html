@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* ELement Selector*/
+        div {
+            /* background-color: red; */
+        }
+
+        #blue {
+            background-color: blue;
+            color: white;
+        }
+
+        .fir {
+            background-color: aqua;
+        }
+
+        #green {
+            background-color: green;
+            color: white;
+        }
+
+        div p {
+            background-color: yellow;
+            color: black;
+        }
+
+        div>p {
+            background-color: brown;
+            color: blue;
+        }
+
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        a:visited {
+            color: brown;
+        }
+
+        a:active {
+            background-color: red;
+        }
+
+        div:hover {
+            background-color: yellow;
+        }
+
+        p:first-child {
+            background-color: green;
+
+        }
+
+        p:second-child {
+            background-color: aqua;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="blue">
+        hello world i am a div .
+        <article>
+
+            <p> I am a para inside div </p>
+        </article>
+    </div>
+    <DIV id="green">
+        CLASS
+    </DIV>
+    <div>
+        <a href="www.youtube.com/c/rscomedygroup">Go to my youtube channel</a>
+        <a href="www.facebook2.com">Go to Facebook</a>
+    </div>
+    <main class="one">
+        <p>I am First</p>
+        <p>I am second</p>
+    </main>
+</body>
+
+</html>

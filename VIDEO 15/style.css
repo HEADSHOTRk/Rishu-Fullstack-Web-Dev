@@ -1,0 +1,13 @@
+h1{
+    background-color: red;
+    color: aliceblue;
+}
+div{
+    background-color: yellowgreen;
+    color: black;
+    border: 2px solid white;
+}
+p{
+    color: yellow;
+    background-color: black;
+}

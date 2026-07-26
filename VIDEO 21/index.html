@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specifity & Cascade</title>
+    <style>
+        h1 {
+            color: aqua;
+        }
+
+
+        .cpurple {
+            color: purple;
+        }
+
+        .yellow {
+            color: yellow;
+        }
+
+        .cred {
+            color: red;
+        } 
+        [data-x="a"] {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 class="cpurple yellow cred" data-x="a">
+        css Specifity & Cascade
+        </h1>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat maxime porro excepturi rem voluptatum non placeat minus, hic maiores. Totam, sed? Velit laboriosam excepturi ratione. Nulla dolor commodi distinctio rerum?</p>
+    </div>
+</body>
+
+</html>
